@@ -1,0 +1,89 @@
+.jobs {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5%;
+  width: 100%;
+  background-color: #1e293b; /* Darker background for contrast */
+}
+
+.profile {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  background-position: center; /* Center the background image */
+  height: 250px;
+  width: 100%;
+  color: black; /* White text for better readability */
+  padding-left: 20px;
+  padding-top: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 20px; /* Space between profile and filters */
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  background-color: #2d3748; /* Slightly lighter background for filters */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Add depth to filters */
+  margin-bottom: 20px; /* Space between filters and search */
+}
+
+label {
+  margin: 10px 0px;
+  color: #e2e8f0; /* Light grey for label text */
+  font-weight: 500; /* Medium weight for better readability */
+}
+
+.search {
+  display: flex;
+  background-color: #2d3748; /* Match filter background */
+  border: 2px solid #4ade80; /* Green border for focus */
+  border-radius: 5px; /* Rounded corners */
+  width: 250px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.search-bar {
+  border: none;
+  background-color: transparent;
+  width: 200px;
+  color: #ffffff; /* White text for search input */
+  outline: none; /* Remove default outline */
+  font-size: 16px;
+}
+
+.search-icon {
+  color: #4ade80; /* Green color for search icon */
+  font-size: 20px; /* Larger icon size */
+  cursor: pointer; /* Pointer cursor for interactivity */
+}
+
+.jobs-list {
+  width: 65vw;
+  padding-left: 20px; /* Space between list and edge */
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between job items */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-filters {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between profile and filters */
+}

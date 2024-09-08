@@ -1,0 +1,34 @@
+.home-page {
+  color: white;
+}
+@media screen and (width >= 768px) {
+  .main-page {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    padding-top: 10%;
+    padding-left: 20px;
+  }
+  .text {
+    width: 50%;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (width < 768px) {
+  .main-page {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
